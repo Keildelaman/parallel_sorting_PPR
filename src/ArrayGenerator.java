@@ -5,7 +5,7 @@ public class ArrayGenerator {
         int[] arr = new int[n];
         Random random = new Random();
         for (int i = 0; i < n; i++) {
-            arr[i] = random.nextInt(101);
+            arr[i] = random.nextInt(n);
         }
         return arr;
     }

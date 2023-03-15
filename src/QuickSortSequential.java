@@ -8,7 +8,7 @@ public class QuickSortSequential {
         }
     }
 
-    private static int partition(int[] arr, int left, int right) {
+    public static int partition(int[] arr, int left, int right) {
         int pivotValue = arr[right];
         int i = left - 1;
         for (int j = left; j < right; j++) {
